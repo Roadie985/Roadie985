@@ -1,0 +1,13 @@
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\bin\Debug\netcoreapp3.1\BaconSandwich.exe
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\bin\Debug\netcoreapp3.1\BaconSandwich.deps.json
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\bin\Debug\netcoreapp3.1\BaconSandwich.runtimeconfig.json
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\bin\Debug\netcoreapp3.1\BaconSandwich.runtimeconfig.dev.json
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\bin\Debug\netcoreapp3.1\BaconSandwich.dll
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\bin\Debug\netcoreapp3.1\BaconSandwich.pdb
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.csprojAssemblyReference.cache
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.csproj.CoreCompileInputs.cache
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.AssemblyInfoInputs.cache
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.AssemblyInfo.cs
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.dll
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.pdb
+C:\Users\cj_hu\source\repos\BaconSandwich\BaconSandwich\obj\Debug\netcoreapp3.1\BaconSandwich.genruntimeconfig.cache
