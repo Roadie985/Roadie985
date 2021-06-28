@@ -1,0 +1,21 @@
+fun main() {
+	val theCoin = Coin()
+    val theCoin1 = Coin()
+
+	theCoin.flip()
+    theCoin1.flip()
+   
+    
+}
+class Coin(){
+    
+fun flip(){
+    val randomNumber = (1..2).random()
+    if (randomNumber ==1){
+     println("the coin has 2 sides it landed on: Heads!")  
+    }
+    if (randomNumber !=1){
+    println("the coin has 2 sides it landed on: Tails!")
+    }
+}
+    }  
