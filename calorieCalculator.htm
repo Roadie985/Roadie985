@@ -1,0 +1,66 @@
+<!doctype html>
+<head>
+
+</head>
+
+<body>
+<p id="info">This calculator is based on the Mifflin St.Jeor equation<br> Men
+10 x weight (kg) + 6.25 x height (cm) – 5 x age (y) + 5
+
+Women
+10 x weight (kg) + 6.25 x height (cm) – 5 x age (y) – 161</p>
+<hr>
+height (cms)
+<input type="text" id="height">
+</br>
+
+weight (kgs)
+<input type="text" id="weight">
+</br>
+
+age (years)
+<input type="text" id="age">
+</br>
+Personal activity level
+<input type="text" id="PAL">
+</br>
+<button onClick="calc()">calculate and show results</button>
+
+
+<hr>
+<p id="calculated">calculation results will appear here!</p>
+<hr>
+<footer>by Chris Hunter</footer>
+</footer>
+</body>
+
+
+<script>
+
+
+
+
+
+function calc(){
+var height = document.getElementById("height").value;
+var weight = document.getElementById("weight").value;
+var age = document.getElementById("age").value;
+var pal = document.getElementById("PAL").value;
+/* Calculation source for Male 
+10 x weight (kg) + 6.25 x height (cm) – 5 x age (y) + 5
+*/
+
+/* Calculation source for Female 
+10 x weight (kg) + 6.25 x height (cm) – 5 x age (y) – 161
+*/
+var solvedM= (weight*10) + ((6.25* height) - 5*age) + 5;
+ 
+var solvedF= (weight*10) + ((6.25* height) - 5*age) - 161;
+
+document.getElementById("calculated").innerHTML = "Male maintenance calories: "+ solvedM*pal + "<br>" + "<br>Male weight loss calorie intake (-500kcal)=" + ((solvedM*pal)-500) +"<br>Male weight gain calorie intake (+500kcal)=" + ((solvedM*pal)+500) +"<hr>" + "Female maintenance calories: "+ solvedF*pal + "<br><br>Female weight loss calorie intake (-500kcal)=" + ((solvedF*pal)-500) +"<br>Female weight gain calorie intake (+500kcal)=" + ((solvedF*pal)+500) ;
+
+}
+
+
+
+</script>
